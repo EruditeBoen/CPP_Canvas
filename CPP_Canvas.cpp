@@ -11,6 +11,7 @@
 using namespace std;
 
 class Solution {
+public:
 	// Solution function here :>
 
 	// Solution function end :O

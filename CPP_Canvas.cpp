@@ -21,10 +21,11 @@ int main() {
 	Solution sol;
 
 	// Test case variables here :v
-
+	
 	// Test case variable end :<
 
-	int ans = sol.// Solution
+	// Change pointer if neccessary
+	auto ans = sol.// Solution
 
 	// Uncomment for vector output
 	// for {auto item : ans}

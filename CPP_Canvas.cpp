@@ -25,7 +25,7 @@ int main() {
 	// Test case variable end :<
 
 	// Change pointer if neccessary
-	auto ans = sol.// Solution
+	auto ans = sol.;// Solution
 
 	// Uncomment for vector output
 	// for {auto item : ans}

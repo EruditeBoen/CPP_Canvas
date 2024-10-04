@@ -541,7 +541,7 @@ void walkLine(vector<string> inp)
 
         for (int i = row_count; i < n + row_count; ++i)
         {
-            stringstream ss(inp[e]);
+            stringstream ss(inp[i]);
             // inputs
         }
 

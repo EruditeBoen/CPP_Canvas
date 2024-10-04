@@ -522,18 +522,55 @@ vector<splay_node*> splay_tree::pointers_to_delete;
 
 const int MAX = //Constraints;
 
-void run_case(int test_case) {
-    // Get cases and perform operations
+void walkLine(vector<string> inp)
+{
+    int case_count = 1;
 
-    cout << "Case #" << test_case << ": " << '\n';
+    stringstream ss(inp[0]);
+    int t;
+    ss >> t;
+
+    int row_count = 1;
+
+    for (int tc = 1; tc <= t; ++tc)
+    {
+        stringstream ss(inp[row_count]);
+        // inputs:
+
+        row_count++;
+
+        for (int i = row_count; i < n + row_count; ++i)
+        {
+            stringstream ss(inp[e]);
+            // inputs
+        }
+
+        // cout << n << " " << g << endl;
+
+        // for (int e : stones)
+        // {
+        //     cout << e << endl;
+        // }
+
+        cout << "Case #" << case_count << ": " << endl;
+        case_count++;
+
+        row_count += n;
+    }
 }
 
-int main() {
-    int tests;
-    cin >> tests;
+int main()
+{
+    ifstream infile("") // input file;
+    vector<string> inp;
+    string line;
 
-    for (int tc = 1; tc <= tests; tc++) {
-        run_case(tc);
-        cout << flush;
+    while (getline(infile, line))
+    {
+        inp.push_back(line);
     }
+
+    walkLine(inp);
+
+    return 0;
 }

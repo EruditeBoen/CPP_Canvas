@@ -17,7 +17,6 @@
 #include <vector>
 using namespace std;
 
-// http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0200r0.html
 template<class Fun> class y_combinator_result {
     Fun fun_;
 public:

@@ -525,7 +525,7 @@ const int MAX = //Constraints;
 void run_case(int test_case) {
     // Get cases and perform operations
 
-    cout << "Case #" << test_case << ": " << N - best_index << ' ' << closest << '\n';
+    cout << "Case #" << test_case << ": " << '\n';
 }
 
 int main() {
